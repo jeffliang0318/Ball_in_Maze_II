@@ -1,13 +1,23 @@
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image: url(http://res.cloudinary.com/dgxmjwbrc/image/upload/v1525373852/fall.jpg);
+  background-size: cover;
+  background-position: center;
+}
 canvas {
   background: #eee;
   display: block;
   margin: 0 auto;
-  height: 70vh;
+  height: 100%;
+  border: 2px solid white;
 
  }
  h1{
    text-align: center;
    font-weight: bold;
+   color: white;
+   text-shadow: 9px 8px 8px black, 0 0 1em grey, 0 0 0.2em grey;
    font-size: 7vh;
    margin-bottom: 0;
  }
@@ -16,13 +26,15 @@ canvas {
    vertical-align: top;
  }
  .game-board {
+   margin: 10vh 0;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    justify-content: space-around;
    position: relative;
  }
  .side-section {
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
    margin-top: 0;
