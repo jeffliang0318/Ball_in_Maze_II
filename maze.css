@@ -1,0 +1,113 @@
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+  height: 70vh;
+
+ }
+ h1{
+   text-align: center;
+   font-weight: bold;
+   font-size: 7vh;
+   margin-bottom: 0;
+ }
+ div {
+   margin: -2px;
+   vertical-align: top;
+ }
+ .game-board {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   position: relative;
+ }
+ .side-section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 0;
+ }
+ .side-section button {
+  font-size: 30px;
+  margin: 20px 30px 20px 30px;
+  border-radius: 10px;
+  padding: 5px 20px 5px 20px;
+ }
+
+ .side-section button:hover {
+   color: white;
+   background-color: blue;
+ }
+.active {
+  color: white;
+  background-color: blue;
+}
+ .ball {
+   height: 5%;
+   width: 5%;
+   /* border: 1px solid red; */
+  background-size: cover;
+  background-position: center;
+   background-image: url('http://res.cloudinary.com/dgxmjwbrc/image/upload/v1523915701/wood-1043207_1280_copy.jpg');
+   display: inline-block;
+ }
+ .board {
+   /* border: 1px solid grey; */
+   width: 600px;
+   height: 600px;
+ }
+ .game {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .hole {
+   height: 5%;
+   width: 5%;
+   background-size: contain;
+   background-image: url('https://res.cloudinary.com/dgxmjwbrc/image/upload/v1523914889/Sirex_noctilio_hole_cropped.jpg');
+   display: inline-block;
+ }
+ .path {
+   height: 5%;
+   width: 5%;
+   background-size: cover;
+   background-image: url('http://res.cloudinary.com/dgxmjwbrc/image/upload/v1523909589/wood-1043207_1280.jpg');
+   display: inline-block;
+ }
+ .wall {
+   height: 5%;
+   width: 5%;
+   background-size: cover;
+   background-image: url('http://res.cloudinary.com/dgxmjwbrc/image/upload/v1523909588/download.jpg');
+   display: inline-block;
+ }
+ .goal {
+   height: 5%;
+   width: 5%;
+   background-size: cover;
+   background-position: center;
+   background-image: url('http://res.cloudinary.com/dgxmjwbrc/image/upload/v1524067906/coin.jpg');
+   display: inline-block;
+ }
+ .pause {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 89%;
+   width: 68%;
+   top: -5px;
+   background-color: rgba(0,0,0,0.5);
+ }
+.pause-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pause-window h2 {
+  padding: 150px;
+  font-size: 56px;
+  color: white;
+}
