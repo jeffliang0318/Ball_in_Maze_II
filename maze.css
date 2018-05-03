@@ -84,14 +84,14 @@ canvas {
    height: 5%;
    width: 5%;
    background-size: cover;
-   background-image: url('http://res.cloudinary.com/dgxmjwbrc/image/upload/v1523909589/wood-1043207_1280.jpg');
+   background-image: url('https://res.cloudinary.com/dgxmjwbrc/image/upload/v1523909589/wood-1043207_1280.jpg');
    display: inline-block;
  }
  .wall {
    height: 5%;
    width: 5%;
    background-size: cover;
-   background-image: url('http://res.cloudinary.com/dgxmjwbrc/image/upload/v1523909588/download.jpg');
+   background-image: url('https://res.cloudinary.com/dgxmjwbrc/image/upload/v1523909588/download.jpg');
    display: inline-block;
  }
  .goal {
@@ -99,7 +99,7 @@ canvas {
    width: 5%;
    background-size: cover;
    background-position: center;
-   background-image: url('http://res.cloudinary.com/dgxmjwbrc/image/upload/v1524067906/coin.jpg');
+   background-image: url('https://res.cloudinary.com/dgxmjwbrc/image/upload/v1524067906/coin.jpg');
    display: inline-block;
  }
  .pause {
