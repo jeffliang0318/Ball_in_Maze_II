@@ -60,7 +60,6 @@ canvas {
    /* border: 1px solid red; */
   background-size: cover;
   background-position: center;
-   background-image: url('https://res.cloudinary.com/dgxmjwbrc/image/upload/v1523915701/wood-1043207_1280_copy.jpg');
    display: inline-block;
  }
  .board {
@@ -83,8 +82,6 @@ canvas {
  .path {
    height: 5%;
    width: 5%;
-   background-size: cover;
-   background-image: url('https://res.cloudinary.com/dgxmjwbrc/image/upload/v1523909589/wood-1043207_1280.jpg');
    display: inline-block;
  }
  .wall {
