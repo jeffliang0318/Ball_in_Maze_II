@@ -16,7 +16,7 @@ canvas {
   border: 2px solid white;
 
  }
- h1, h2{
+ h1, h2, h3{
    text-align: center;
    font-weight: bold;
    color: white;
@@ -25,8 +25,8 @@ canvas {
    margin-bottom: 0;
  }
 
- h2 {
-   font-size: 3em;
+ h3 {
+   font-size: 2em;
  }
  div {
    margin: -2px;
@@ -137,12 +137,18 @@ canvas {
 
 .green {
   color: green;
+  background-color: rgba(225, 225, 225, 0.5);
+  text-shadow: none;
 }
 
 .red {
   color: red;
+  background-color: rgba(225, 225, 225, 0.5);
+  text-shadow: none;
 }
 
 .black {
   color: black;
+  background-color: rgba(225, 225, 225, 0.5);
+  text-shadow: none;
 }
